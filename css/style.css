@@ -1,9 +1,11 @@
+body {
+  background-color: #fae4d8;
+  link:#34999e;
+}
+
 #zooroyalschrift {
 color:#34999e;
 font-size:100px;
-}
-
-div.zooroyal {
   margin-top:50px;
   margin-left: 750px;
 }
