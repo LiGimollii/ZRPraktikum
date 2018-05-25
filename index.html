@@ -23,23 +23,45 @@
 <br>
 
 <article>
-<div class="magazin">
- <h2>ZooRoyal Magazin</h2>
+ <div class="magazin">
+     <h2>ZooRoyal Magazin</h2>
      <p>Egal, ob dein Haustier Federn, Fell oder Schuppen hat - in unserem ZooRoyal Magazin</p>
      <p>erh&auml;ltst du schnell n&uuml;tzliche Informationen und garantiert die passende Antwort</p>
      <p> auf deine Frage rund um dein geliebtes Haustier. Neben Wissenswertem zur Haltung, </p>
      <p>Pflege, Gesundheit und Ern&auml;hrung deines tierischen Lieblings findest du wertvolle Tipps </p>
      <p>von unserem Tierarzt-Team und ausf&uuml;hrliche Portraits der beliebtesten Hunde- und Katzenrassen.</p>
-</div>
+ </div>
 </article>
 
+<div class="formular">
+ <form  action="formular.php" method="post">
+
+Anrede <select id="anrede">
+      <option value="anredeherr">Herr</option>
+      <option value="anredefrau">Frau</option>
+       </select>
+
+      <p><label for="vname">Vorname <input id="vname" name="vname"> </label>
+         <label for="zname">Zuname <input id="zname" name="zname"> </label></p>
+
+      <p><label for="email">E-Mail <input id="email" name="email"> </label></p>
+
+      <p>Betreff&ensp;<textarea id="betreff" name="betreff"></textarea></p>
+
+      <p>Nachricht&ensp;<textarea id="nachricht" name="nachricht"></textarea>
+         <input type="submit" value="Senden" /></p>
+
+ </form>
+</div>
+
+<br>
 <br>
 <br>
 
 <footer id="copyright">
-  <p> L.G.</p>
+  <p> Lindita Gimolli</p>
   <p>Contact information: <a href="LG@zooroyal.com">
-  LG@zooroyal.com</a>.</p>
+     LG@zooroyal.com</a>.</p>
 </footer>
 
 </body>
