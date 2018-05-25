@@ -1,9 +1,10 @@
 <?php
-
-echo $_POST["anrede"];
-echo $_POST["vname"];
-echo $_POST["zname"];
-echo $_POST["email"];
-echo $_POST["betreff"];
-echo $_POST["nachricht"];
+$anrede = $_POST ["anrede"];
+if($anrede == ".....")
+    {
+    echo "Vielen Dank";
+    }
+else {
+  echo "Bitte füllen sie das Feld aus";
+}
 ?>
